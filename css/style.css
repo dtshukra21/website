@@ -313,12 +313,13 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 300px;
-    padding: 0 30px;
+    height: 100%;
+    padding: 30px 30px;
     transition: .5s;
 }
 
 .service-item .service-icon {
+    margin-top: 15px;
     margin-bottom: 30px;
     width: 60px;
     height: 60px;
@@ -490,3 +491,27 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+/* mystyle */
+
+.logo{
+    width: 85px;
+    height: 67px
+}
+
+
+
+@media (max-width: 991px) {
+    .clsnavbar.navbar-dark .navbar-nav .nav-link{
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .clsweb-development {
+     margin: 50px auto 0;
+    }
+}
+
+
+/* mystyle */
